@@ -16,6 +16,7 @@ body {
   font-family: Outfit;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   min-height: 100vh;
 }
 
@@ -23,7 +24,11 @@ body {
   width: 300px;
   height: 475px;
   background: white;
-  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
   padding: 5px 5px 5px 5px;
   border-radius: 15px;
   box-shadow: 1px 1px 15px 1px hsl(212deg, 45%, 89%);
@@ -39,8 +44,12 @@ body {
 
 .text {
   font-weight: 700;
-  padding: 20px;
+  padding: 20px 20px 0px 20px;
   text-align: center;
+}
+
+h1 {
+  margin-bottom: 0;
   font-size: 20px;
 }
 
@@ -48,7 +57,8 @@ body {
   padding: 0px 20px 20px 20px;
   text-align: center;
   font-weight: 400;
-  color: #b1c8e2;
+  color: #6793c5;
+  font-size: 15px;
 }
 
 /*# sourceMappingURL=style.css.map */
